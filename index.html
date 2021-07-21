@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="stylesheet" href="./css/Rubik.css">
+    <!-- FONTS AWESOME -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- GRID CSS -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <!-- RESPONSIVE CSS FILE -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- MAIN CSS FILE -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AXITme</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="#" class="brand">UX<span class="yellow">IT</span>
+                </a>
+                <ul class="main-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#">Home</a>    
+                            <a onclick="closeNav()" href="#">Features</a>    
+                            <a onclick="closeNav()" href="#about">About</a>  
+                            <a onclick="closeNav()" href="#pricing">Pricing</a>  
+                            <a onclick="closeNav()" href="#review">Reviews</a>   
+                            <a onclick="closeNav()" href="#contact">Contact</a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <div class="axit-text-box">
+                    <h1>UX<span class="yellow">IT</span></h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.Vel fugit.</h2>
+                    <p class="axit-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias   eius perferendis eveniet sapiente temporibus praesentium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, neque.</p>
+                    <a href="#" class="btn btn-axit">Download</a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="title">
+                          <h3>Try Your <p>FREE</p> Trial</h3>
+                        </div>
+                        <div class="form">
+                          <form action="#" method="POST">
+                              <input type="text" name="Name" placeholder="Name">
+                              <input type="email" name="Email" placeholder="Email">
+                              <input type="password" name="Password" placeholder="Password">
+                          </form>
+                        </div>
+                        <div class="submit">
+                            <a href="#">Get Started</a>
+                        </div>
+                     </div>
+                </div>
+            </div>  
+        </div>
+    </header>
+<!-- SOCIAL MEDIA ICONS -->
+    <section class="social-media-icons">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <h4>Social Media</h4>
+                <p class="little-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia saepe nam aliquid. Lorem ipsum dolor sit  Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col span-2-of-3">
+                    <ul class="social-link">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+<!-- TRANSITION SECTION -->
+    <section id="feature" class="transition-effect js--feature-section">
+        <div class="row">
+            <div class="col span-1-of-6">
+                <div class="tab-block">
+                   <div><a href="#" class="box1">TAB 1</a></div>
+                   <div><a href="#" class="box2">TAB 2</a></div>
+                   <div><a href="#" class="box3">TAB 3</a></div>
+                </div>
+            </div>
+            <div class="col span-1-of-2 box">
+                <h4 class="effect-heading">Tabs with soft transitioning effect.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit nulla ea quaerat fuga enim consectetur cupiditate quam! Perspiciatis dolor quisquam maxime expedita exercitationem est, debitis autem recusandae omnis quaerat!</p>
+                <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, harum.</p>
+                <a href="#" class="btn btn-effect">Download</a>
+            </div>
+            <div class="col span-2-of-6 effect-logo">
+                <img src="./img/city_night.jpg" class="effect-img" alt="">
+            </div>
+        </div>
+    </section>
+<!-- SUB LIST SECTION -->
+    <section class="sub-list">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <img src="img/img2.jpg" alt="">
+            </div>
+            <div class="col span-1-of-2">
+                <div class="div">
+                    <h4>Sub list section</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque minima similique id accusantium voluptates nostrum laudantium at a modi.</p>
+                </div>
+                <div class="sub-icon">
+                    <a href="#"><i class="fa fa-cloud-download"></i></a>
+                </div>
+                <div class="sub-des">
+                     <h5>Title</h5>
+                     <p class="p2">Lorem ipsum dolor sit ametconsectetur,adipisicing elit.Eaque similique rationelabore vitae ipsum nostrum! Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="sub-icon">
+                    <a href="#"><i class="fa fa-cloud-download"></i></a>
+                </div>
+               <div class="sub-des">
+                    <h5>Title</h5>
+                    <p class="p2">Lorem ipsum dolor sit ametconsectetur,adipisicing elit.Eaque similique rationelabore vitae ipsum nostrum! Lorem ipsum dolor sit amet.</p>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!-- STANDARD PICTURE -->
+    <section class="standard-picture">
+        <div class="row">
+            <div class="col span-1-of-2 box">
+                <h4>Standard Picture Section</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores doloribus reprehenderit repellat nesciunt quam enim blanditiis earum molestiae saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, perspiciatis voluptatum. Labore assumenda quis perspiciatis.</p>
+                <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dignissimos sint sit laborum ipsam earum?</p>
+
+            </div>
+            <div class="col span-1-of-2">
+                <a href="#"><img src="img/city_night.jpg" class="std-pic" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="row">
+            <h2>why this is awesome</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, ipsum in veritatis ipsa error voluptate.</p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 box"> 
+                <div class="about-icon">
+                    <a href="#"><i class="fa fa-paper-plane"></i></a>
+                </div>
+                <div class="about-des">
+                    <h3>ThoughtFul Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae nam quam temporibus assumenda quaerat odit minus esse quo inventore!</p>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="about-icon">
+                    <a href="#"><i class="fa fa-keyboard-o"></i></a>
+                </div>
+                <div class="about-des box">
+                    <h3>Well Crfted</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae nam quam temporibus assumenda quaerat odit minus esse quo inventore!</p>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="about-icon">
+                    <a href="#"><i class="fa fa-bolt"></i></a>
+                </div>
+                <div class="about-des box">
+                    <h3>Easy To Customize</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae nam quam temporibus assumenda quaerat odit minus esse quo inventore!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- PRICING SECTION -->
+<section id="pricing" class="pricing-section">
+    <div class="row">
+        <h2>Pricing Option</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, qui.</p>
+    </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+            <div class="card-bg">
+                <div class="card-body">
+                     <div class="card-heading">
+                         <h4>Basic</h4>
+                     </div>
+                     <div class="card-pricing">
+                         <span><i class="fa fa-dollar"></i>0</span>
+                         <p>Free for Life</p>
+                     </div>
+                     <div class="price-bg">
+                         <div class="price-plan">
+                             <span>1 GB OF SPACE</span>
+                             <span>10 GB OF BANDWIDTH</span>
+                             <span>3 WEBSITES</span>
+                             <span>BASIC CUSTOMIZATION</span>
+                             <span>WORDPRESS INTEGRATION</span>
+                             <span>EMAIL SUPPORT</span>
+                         </div>
+                     </div>
+                     <div class="card-footer">
+                         <h4>Order now</h4>
+                     </div>
+                </div>
+             </div>
+        </div>
+        <div class="col span-1-of-3">
+            <div class="card-bg">
+                <div class="card-body">
+                     <div class="card-heading">
+                         <h4>Professional</h4>
+                     </div>
+                     <div class="card-pricing">
+                         <span><i class="fa fa-dollar"></i>19</span>
+                         <p>Monthly Payment</p>
+                     </div>
+                     <div class="popular">
+                         <p>Our Most Popular</p>
+                     </div>
+                     <div class="price-bg">
+                         <div class="price-plan">
+                             <span>10 GB OF SPACE</span>
+                             <span>100 GB OF BANDWIDTH</span>
+                             <span>100 WEBSITES</span>
+                             <span>PROFESSIONAL CUSTOMIZATION</span>
+                             <span>WORDPRESS INTEGRATION</span>
+                             <span>EMAIL SUPPORT</span>
+                         </div>
+                     </div>
+                     <div class="card-footer">
+                         <h4>Order now</h4>
+                     </div>
+                </div>
+             </div>
+        </div>
+        <div class="col span-1-of-3">
+            <div class="card-bg">
+                <div class="card-body">
+                     <div class="card-heading">
+                         <h4>Enterprise</h4>
+                     </div>
+                     <div class="card-pricing">
+                         <span><i class="fa fa-dollar"></i>70</span>
+                         <p>Monthly Payment</p>
+                     </div>
+                     <div class="price-bg">
+                         <div class="price-plan">
+                             <span>UNLIMITED SPACE</span>
+                             <span>UNLIMITED BANDWIDTH</span>
+                             <span>100 WEBSITES</span>
+                             <span>ADVANCED CUSTOMIZATION</span>
+                             <span>WORDPRESS INTEGRATION</span>
+                             <span>24/7 CUSTOMER SUPPORT</span>
+                         </div>
+                     </div>
+                     <div class="card-footer">
+                         <h4>Order now</h4>
+                     </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</section>
+<!-- REVIEW SECTION -->
+<section id="review" class="review-section">
+    <div class="row">
+        <h2>What our customers are saying</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laudantium assumenda iusto fuga, facilis officia.</p>
+    </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+            <q class="client-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas voluptatibus quisquam? Quasi, aut atque?</q>
+            <div class="review">
+                <div class="review-img">
+                    <img src="img/hossain.jpg" class="reveiw-img" alt="">
+                </div>
+                <div class="review-des">
+                    <h4>Taieb Hossain</h4>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="col span-1-of-3">
+            <q class="client-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas voluptatibus quisquam? Quasi, aut atque?</q>
+            <div class="review">
+                <div class="review-img">
+                    <img src="img/hossain.jpg" class="reveiw-img" alt="">
+                </div>
+                <div class="review-des">
+                    <h4>Taieb Hossain</h4>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="col span-1-of-3">
+            <q class="client-review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas voluptatibus quisquam? Quasi, aut atque?</q>
+            <div class="review">
+                <div class="review-img">
+                    <img src="img/hossain.jpg" class="reveiw-img" alt="">
+                </div>
+                <div class="review-des">
+                    <h4>Taieb Hossain</h4>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- STYLISH DESIGN SECTION -->
+<section class="stylish">
+    <div class="row">
+        <h2>stylish axure design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nulla rem reprehenderit repellat dolor. Unde?
+        </p>
+        <a href="#" class="btn btn-stylish">Download</a>
+    </div>
+</section>
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section">
+    <div class="row">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae pariatur eligendi optio veniam odio?</p>
+    </div>
+    <div class="row">
+        <div class="col span-1-of-2">
+           <form action="#">
+               <input type="text" name="Name" placeholder="Name *" required>
+               <input type="email" name="Email" placeholder="Eamil *" required>
+               <input type="text" name="Subject" placeholder="Subject *" required>
+           </form>
+        </div>
+        <div class="col span-1-of-2">
+            <textarea name="Message" cols="30" rows="8" placeholder="Message"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <button class="btn btn-contact">Send Message</button>
+    </div>
+</section>
+<!-- FOOTER SECTION -->
+<section class="footer-section">
+    <div class="row">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+        <span>&copy; 2020 Axitme Hossain</span>
+    </div>
+</section>
+<!-- MAIN JAVASCRIPT FILE -->
+<script src="./js/main.js"></script>
+</body>
+</html>

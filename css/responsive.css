@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 65vh;
+    }
+    h1 {
+        margin-top: 10rem !important;
+    }
+        .row {
+            margin: 0 30px !important;
+        }
+        html {
+            font-size: 57.5% !important;
+        }
+        .social-link li a:link i::before {
+            font-size: 3.5rem !important;
+        }
+        .contact-section textarea {
+            width: 80% !important;
+        }
+    
+}
+@media only screen and (max-width: 980px) {
+    header {
+        height: 60vh;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-menu span {
+        display: block !important;
+    }
+    .card {
+        display: none;
+    }
+    .social-link li a:link i::before {
+        /* font-size: 2rem; */
+        margin-left: 2rem !important;
+    }
+    .col {
+        margin-left: 0 !important;
+    }
+    .span-1-of-2 {
+        width: 100%;
+    }
+    .span-1-of-6 {
+        width: 32.26%;
+    }
+    .sub-list img {
+        margin-top: 0 !important;
+    }
+    .effect-logo {
+        margin-left: 0 !important;
+    }
+    .standard-picture img {
+        float: none !important;
+    }
+    .span-1-of-3 {
+        width: 100% !important;
+    }
+    
+    .review-des {
+        margin-top: 1rem !important;
+    }
+    .pricing-section .span-1-of-3 {
+        width: 70% !important;
+        margin-left: 15% !important;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 5rem !important;
+    }
+    h2 {
+        font-size: 3rem !important;
+    }
+    header {
+        height: 75vh !important;
+    }
+    .axit-text-box {
+        margin-top: 3rem !important;
+    }
+    .span-2-of-3 {
+        width: 100% !important;
+    }
+    .span-1-of-6 {
+        width: 100% !important;
+    }
+    .tab-block {
+        width: 100% !important;
+        font-size: 3rem !important;
+    }
+    .box1,.box2,.box3 {
+        padding: 3rem !important;
+    }
+    .effect-logo {
+        width: 100% !important;
+    }
+    .sub-list img {
+        width: 100% !important;
+        margin: auto;
+        float: none;
+        border-radius: .3rem;
+        box-shadow: 2px 0 10px rgb(48, 45, 45);
+    }
+    .standard-picture img {
+        width: 100% !important;
+        margin: auto;
+        float: none;
+        border-radius: .3rem;
+        margin-top: 2rem;
+        box-shadow: 2px 0 10px rgb(48, 45, 45);
+    }
+    .social-link li a:link i::before {
+        font-size: 1.8rem;
+        margin-left: 1.5rem !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    header {
+        height: 70vh !important;
+    }
+    .sub-des {
+        width: 100% !important;
+    }
+    .social-media-icons {
+        text-align: center !important;
+    }
+    .btn-contact {
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    .card-body {
+        width: 100% !important;
+        margin-left: 0% !important;
+        text-align: center !important;
+    }
+}
